@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy – PDF Master Pro – Doc Scanner</title>
+<meta name="description" content="Privacy Policy for PDF Master Pro – Doc Scanner (kartik.pdfmasterpro) by KartikRoc.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0e1a3a;
+    --navy-2:#182a5c;
+    --coral:#ff5a4e;
+    --amber:#ffb547;
+    --teal:#14b8a6;
+    --sky:#3b82f6;
+    --violet:#8b5cf6;
+    --pink:#ec4899;
+    --green:#22c55e;
+    --bg:#f4f6fb;
+    --card:#ffffff;
+    --text:#1c2333;
+    --muted:#5d6782;
+    --line:#e4e8f2;
+    --f-head:"Sora","Segoe UI",system-ui,sans-serif;
+    --f-body:"Nunito Sans","Segoe UI",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--f-body);font-size:17px;line-height:1.7}
+  a{color:var(--coral);font-weight:700;text-underline-offset:3px}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative;overflow:hidden;color:#fff;
+    background:
+      radial-gradient(circle at 85% 15%, rgba(255,90,78,.55), transparent 42%),
+      radial-gradient(circle at 10% 90%, rgba(255,181,71,.35), transparent 40%),
+      linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 100%);
+    padding:56px 20px 110px;
+  }
+  .hero::after{
+    content:"";position:absolute;inset:0;
+    background-image:radial-gradient(rgba(255,255,255,.08) 1px,transparent 1px);
+    background-size:22px 22px;pointer-events:none;
+  }
+  .hero-inner{position:relative;z-index:1;max-width:900px;margin:0 auto;display:grid;gap:22px}
+  .brand{display:flex;align-items:center;gap:14px}
+  .logo{
+    width:62px;height:62px;border-radius:18px;flex:none;
+    background:linear-gradient(145deg,var(--coral),#ff8a3d);
+    display:grid;place-items:center;
+    box-shadow:0 12px 30px rgba(255,90,78,.45);
+  }
+  .logo svg{width:32px;height:32px}
+  .brand-name{font:700 18px/1.3 var(--f-head)}
+  .brand-pkg{font:600 13px/1.3 ui-monospace,Consolas,monospace;color:#b9c4e4;margin-top:2px}
+  .hero h1{
+    font:800 clamp(2.3rem,7vw,3.6rem)/1.05 var(--f-head);margin:6px 0 0;letter-spacing:-.02em;
+  }
+  .hero h1 span{
+    background:linear-gradient(90deg,var(--amber),var(--coral));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .hero p.lead{max-width:60ch;margin:0;color:#d6ddf2;font-size:18px}
+  .chips{display:flex;flex-wrap:wrap;gap:10px}
+  .chip{
+    display:inline-flex;align-items:center;gap:8px;
+    background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);
+    padding:7px 14px;border-radius:999px;font:600 14px var(--f-head);color:#fff;
+  }
+  .chip i{width:8px;height:8px;border-radius:50%;background:var(--amber);display:inline-block}
+
+  /* ---------- MAIN ---------- */
+  main{max-width:900px;margin:-70px auto 0;padding:0 16px 60px;position:relative;z-index:2}
+
+  .glance{
+    background:var(--card);border-radius:22px;padding:28px;
+    box-shadow:0 20px 50px rgba(14,26,58,.12);
+    display:grid;gap:18px;
+  }
+  .glance h2{margin:0;font:700 14px var(--f-head);letter-spacing:.12em;text-transform:uppercase;color:var(--coral)}
+  .glance-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .g-item{
+    display:flex;gap:12px;align-items:flex-start;
+    padding:14px 16px;border-radius:14px;background:#f7f9fd;border:1px solid var(--line);
+    font-size:15.5px;line-height:1.5;
+  }
+  .g-dot{
+    width:30px;height:30px;border-radius:10px;flex:none;display:grid;place-items:center;
+    color:#fff;font-weight:800;font-size:15px;
+  }
+
+  nav.toc{
+    margin:26px 0 8px;display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;
+    scrollbar-width:thin;
+  }
+  nav.toc a{
+    flex:none;text-decoration:none;font:600 14px var(--f-head);color:var(--navy);
+    background:var(--card);border:1px solid var(--line);padding:8px 14px;border-radius:999px;
+    transition:all .2s;
+  }
+  nav.toc a:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+  .sec{
+    background:var(--card);border-radius:20px;padding:28px 28px 20px;margin-top:18px;
+    border:1px solid var(--line);
+    border-top:5px solid var(--c);
+    box-shadow:0 6px 18px rgba(14,26,58,.05);
+  }
+  .sec-head{display:flex;align-items:center;gap:14px;margin-bottom:12px}
+  .ico{
+    width:46px;height:46px;border-radius:14px;flex:none;display:grid;place-items:center;
+    background:var(--c);color:#fff;box-shadow:0 8px 18px -6px var(--c);
+  }
+  .ico svg{width:24px;height:24px}
+  .sec h2{margin:0;font:700 clamp(1.25rem,3.5vw,1.5rem)/1.25 var(--f-head);color:var(--navy)}
+  .sec .num{font:700 12px var(--f-head);color:var(--c);letter-spacing:.1em;text-transform:uppercase;display:block;margin-bottom:2px}
+  .sec h3{font:700 1.05rem/1.4 var(--f-head);margin:20px 0 6px;color:var(--navy)}
+  .sec p{margin:0 0 12px}
+  .sec ul{margin:0 0 14px;padding-left:0;list-style:none;display:grid;gap:8px}
+  .sec ul li{position:relative;padding-left:26px}
+  .sec ul li::before{
+    content:"";position:absolute;left:4px;top:.62em;width:10px;height:10px;border-radius:3px;
+    background:var(--c);transform:rotate(45deg);
+  }
+
+  .perm{display:grid;gap:12px;margin:8px 0 14px}
+  .perm-row{
+    display:grid;grid-template-columns:170px 1fr;gap:14px;align-items:center;
+    padding:14px 16px;border-radius:14px;background:#f7f9fd;border:1px solid var(--line);
+  }
+  .tag{
+    font:700 13px ui-monospace,Consolas,monospace;color:#fff;background:var(--c);
+    padding:6px 10px;border-radius:8px;text-align:center;
+  }
+  @media (max-width:560px){ .perm-row{grid-template-columns:1fr} .tag{justify-self:start} }
+
+  .callout{
+    display:flex;gap:14px;align-items:flex-start;
+    background:linear-gradient(135deg,#fff4ec,#ffe9e7);
+    border:1px solid #ffd2cc;border-radius:16px;padding:16px 18px;margin:10px 0 14px;
+  }
+  .callout b{color:var(--coral)}
+
+  .contact-card{
+    margin-top:22px;border-radius:22px;padding:30px 28px;color:#fff;
+    background:
+      radial-gradient(circle at 90% 10%, rgba(20,184,166,.45), transparent 45%),
+      linear-gradient(135deg,var(--navy),var(--navy-2));
+    display:grid;gap:14px;
+  }
+  .contact-card h2{margin:0;font:700 1.6rem var(--f-head)}
+  .contact-card p{margin:0;color:#d6ddf2}
+  .mail{
+    display:inline-flex;align-items:center;gap:10px;flex-wrap:wrap;
+    background:#fff;color:var(--navy);border-radius:14px;padding:12px 16px;
+    font:700 16px var(--f-head);text-decoration:none;justify-self:start;max-width:100%;word-break:break-all;
+  }
+  .mail svg{width:20px;height:20px;flex:none}
+
+  footer{text-align:center;color:var(--muted);font-size:14px;padding:30px 16px 40px}
+  footer strong{color:var(--navy)}
+
+  @media (max-width:560px){
+    .hero{padding:40px 18px 100px}
+    .glance,.sec{padding:22px 18px 16px}
+  }
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h5"/>
+        </svg>
+      </div>
+      <div>
+        <div class="brand-name">PDF Master Pro – Doc Scanner</div>
+        <div class="brand-pkg">kartik.pdfmasterpro</div>
+      </div>
+    </div>
+    <h1>Privacy <span>Policy</span></h1>
+    <p class="lead">Your documents are yours. This policy explains, in plain words, what information the app uses and how we keep it safe.</p>
+    <div class="chips">
+      <span class="chip"><i></i>Effective: 27 October 2026</span>
+      <span class="chip"><i style="background:var(--teal)"></i>Last updated: 27 October 2026</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ================= AT A GLANCE ================= -->
+  <section class="glance" aria-label="Summary">
+    <h2>At a glance</h2>
+    <div class="glance-grid">
+      <div class="g-item"><span class="g-dot" style="background:var(--teal)">✓</span>Your PDFs and scans are processed on your device. We never upload them.</div>
+      <div class="g-item"><span class="g-dot" style="background:var(--sky)">✓</span>The camera is used only when you choose to scan a document.</div>
+      <div class="g-item"><span class="g-dot" style="background:var(--coral)">✓</span>We never sell, rent or trade your personal data.</div>
+      <div class="g-item"><span class="g-dot" style="background:var(--violet)">✓</span>Google Sign-In (coming soon) is optional and shares only name, email and photo.</div>
+      <div class="g-item"><span class="g-dot" style="background:var(--amber)">✓</span>You can ask us to delete your account and data at any time.</div>
+    </div>
+  </section>
+
+  <!-- ================= TOC ================= -->
+  <nav class="toc" aria-label="Sections">
+    <a href="#intro">Introduction</a>
+    <a href="#collect">Data we collect</a>
+    <a href="#use">How we use it</a>
+    <a href="#permissions">Permissions</a>
+    <a href="#third">Third parties</a>
+    <a href="#security">Security</a>
+    <a href="#delete">Deletion</a>
+    <a href="#children">Children</a>
+    <a href="#rights">Your rights</a>
+    <a href="#changes">Changes</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- 1 -->
+  <section class="sec" id="intro" style="--c:var(--sky)">
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></div>
+      <div><span class="num">Section 1</span><h2>Introduction</h2></div>
+    </div>
+    <p>This Privacy Policy explains how <strong>PDF Master Pro – Doc Scanner</strong> (the “App”), developed by <strong>KartikRoc</strong> (Kartik Gupta, India) (“we”, “us”, “our”), handles information when you use the App on Android devices.</p>
+    <p>By using the App, you agree to the practices described in this policy. If you do not agree, please do not use the App.</p>
+  </section>
+
+  <!-- 2 -->
+  <section class="sec" id="collect" style="--c:var(--coral)">
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></svg></div>
+      <div><span class="num">Section 2</span><h2>Information we collect</h2></div>
+    </div>
+    <h3>a) Documents, scans and files</h3>
+    <p>When you scan a document, import an image or open a PDF, the App processes these files <strong>locally on your device</strong> to create, view, edit, merge, split, compress or convert PDFs. We do not upload, store or read your documents on our servers.</p>
+    <h3>b) Camera images</h3>
+    <p>If you use the scanner, the App uses your device camera to capture pages. Captured images are saved only on your device, in the location you choose.</p>
+    <h3>c) Google account information (when Google Sign-In is available)</h3>
+    <p>In a future version, the App will offer optional sign-in with Google. If you choose to sign in, we receive from Google:</p>
+    <ul>
+      <li>Your name</li>
+      <li>Your email address</li>
+      <li>Your profile photo (if available)</li>
+      <li>A unique user ID created by Google / Firebase Authentication</li>
+    </ul>
+    <p>We never receive your Google password. You can keep using the core features of the App without signing in.</p>
+    <h3>d) Technical information</h3>
+    <p>Google Play and Google Play services may collect basic device and app information (such as device model, Android version and crash reports) under Google’s own privacy policy.</p>
+  </section>
+
+  <!-- 3 -->
+  <section class="sec" id="use" style="--c:var(--violet)">
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div>
+      <div><span class="num">Section 3</span><h2>How we use information</h2></div>
+    </div>
+    <ul>
+      <li>To provide the App’s features: scanning, viewing and editing PDF files.</li>
+      <li>To sign you in and identify your account, if you use Google Sign-In.</li>
+      <li>To keep your account settings and preferences linked to you.</li>
+      <li>To fix bugs, improve performance and keep the App secure.</li>
+      <li>To reply to you when you contact us for support.</li>
+    </ul>
+    <p>We do <strong>not</strong> sell, rent or trade your personal information.</p>
+  </section>
+
+  <!-- 4 -->
+  <section class="sec" id="permissions" style="--c:var(--teal)">
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></div>
+      <div><span class="num">Section 4</span><h2>App permissions</h2></div>
+    </div>
+    <div class="perm">
+      <div class="perm-row"><span class="tag">CAMERA</span><span>To scan documents when you tap the scan button.</span></div>
+      <div class="perm-row"><span class="tag">FILE PICKER</span><span>To open and save only the files you select. No broad storage access is requested.</span></div>
+      <div class="perm-row"><span class="tag">INTERNET</span><span>For Google Sign-In and Google Play services. Your documents are not uploaded.</span></div>
+    </div>
+    <p>You can turn permissions off at any time in <strong>Settings → Apps → PDF Master Pro → Permissions</strong>. Some features may stop working without them.</p>
+  </section>
+
+  <!-- 5 -->
+  <section class="sec" id="third" style="--c:var(--amber)">
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></div>
+      <div><span class="num">Section 5</span><h2>Third-party services</h2></div>
+    </div>
+    <p>The App uses the following services, each with its own privacy policy:</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play services</a></li>
+      <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Authentication / Google Sign-In</a> (when sign-in is available)</li>
+    </ul>
+    <p>If we add more services in the future, such as analytics or advertising, we will update this policy before they are used.</p>
+  </section>
+
+  <!-- 6 -->
+  <section class="sec" id="security" style="--c:var(--green)">
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
+      <div><span class="num">Section 6</span><h2>Data storage and security</h2></div>
+    </div>
+    <p>Your documents stay on your device. Account information from Google Sign-In is stored securely by Google Firebase, and data sent between the App and Google is encrypted in transit (HTTPS).</p>
+    <p>No method of storage or transmission is 100% secure, but we take reasonable steps to protect your information.</p>
+  </section>
+
+  <!-- 7 -->
+  <section class="sec" id="delete" style="--c:var(--pink)">
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg></div>
+      <div><span class="num">Section 7</span><h2>Data retention and deletion</h2></div>
+    </div>
+    <ul>
+      <li><strong>Files and scans:</strong> stay on your device until you delete them. Uninstalling the App removes its private app data.</li>
+      <li><strong>Account data:</strong> kept while your account is active. You can sign out at any time.</li>
+    </ul>
+    <div class="callout">
+      <span>🗑️</span>
+      <span><b>Delete your account:</b> email us at the address below with the subject <strong>“Delete my account”</strong> from the email you signed in with. We will delete your account and related data within 30 days.</span>
+    </div>
+  </section>
+
+  <!-- 8 -->
+  <section class="sec" id="children" style="--c:var(--sky)">
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg></div>
+      <div><span class="num">Section 8</span><h2>Children’s privacy</h2></div>
+    </div>
+    <p>The App is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has given us personal information, contact us and we will delete it.</p>
+  </section>
+
+  <!-- 9 -->
+  <section class="sec" id="rights" style="--c:var(--violet)">
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 7h18"/><path d="M6 7l-3 7a3 3 0 0 0 6 0z"/><path d="M18 7l-3 7a3 3 0 0 0 6 0z"/></svg></div>
+      <div><span class="num">Section 9</span><h2>Your rights</h2></div>
+    </div>
+    <p>Under applicable laws, including India’s Digital Personal Data Protection Act, 2023, you may ask to access, correct or delete your personal data, or withdraw your consent. To make a request, contact us using the details below.</p>
+  </section>
+
+  <!-- 10 -->
+  <section class="sec" id="changes" style="--c:var(--coral)">
+    <div class="sec-head">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg></div>
+      <div><span class="num">Section 10</span><h2>Changes to this policy</h2></div>
+    </div>
+    <p>We may update this Privacy Policy, for example when Google Sign-In is launched or new features are added. Changes will be posted on this page with a new “Last updated” date. Please review it from time to time.</p>
+  </section>
+
+  <!-- 11 CONTACT -->
+  <section class="contact-card" id="contact">
+    <span style="font:700 12px var(--f-head);letter-spacing:.12em;text-transform:uppercase;color:var(--amber)">Section 11</span>
+    <h2>Contact us</h2>
+    <p>For questions, data requests or account deletion, reach out to <strong>KartikRoc</strong> (Kartik Gupta), Madhya Pradesh, India.</p>
+    <a class="mail" href="mailto:kartikgupta618@gmail.com">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>
+      kartikgupta618@gmail.com
+    </a>
+  </section>
+
+</main>
+
+<footer>© 2026 <strong>KartikRoc</strong> · PDF Master Pro – Doc Scanner · All rights reserved</footer>
+
+</body>
+</html>
